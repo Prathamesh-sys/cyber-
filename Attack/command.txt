@@ -1,0 +1,21 @@
+install python 
+ -- sudo apt update
+ -- sudo apt install python3 python3-pip -y
+
+install Scapy
+ -- pip3 install scapy
+
+find network 
+ -- ip a
+    wlp1s0 = wifi
+    enp3so = ethernet
+
+Run program
+ -- sudo python3 spoof.py
+
+
+download wireshark
+  -- sudo apt install wireshark -y
+  -- sudo usermod -aG wireshark $USER       => add user to wireshark group
+  -- newgrp wireshark                       => apply changes (restart)
+  -- sudo wireshark
